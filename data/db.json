@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "ShopNest Admin",
+      "email": "admin@shopnest.com",
+      "password": "$2a$10$qNMwJYKpbRvmEcBeoPuDV.Xmu0gHxNIWdQ7DNCWK04Q3MshB25pL.",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "dharshini",
+      "email": "birundha10012007@gmail.com",
+      "password": "$2a$10$zBpiBHzsP281.Ah0boglbOkZ7jsBMUXgYIt2C/cdwhQswJrjPGYB.",
+      "role": "customer"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Cloud Nine Sneakers",
+      "category": "Fashion",
+      "price": 1899,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=900",
+      "description": "Everyday sneakers with a bold, comfortable look."
+    },
+    {
+      "id": 2,
+      "name": "Minimal Watch",
+      "category": "Accessories",
+      "price": 2499,
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=900",
+      "description": "A clean design that goes with every outfit."
+    },
+    {
+      "id": 3,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 3299,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=900",
+      "description": "Enjoy your favourite music with rich sound."
+    },
+    {
+      "id": 4,
+      "name": "Everyday Backpack",
+      "category": "Lifestyle",
+      "price": 1499,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=900",
+      "description": "Roomy, practical and ready for every day."
+    },
+    {
+      "id": 5,
+      "name": "Classic Sunglasses",
+      "category": "Accessories",
+      "price": 999,
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=900",
+      "description": "A timeless frame for sunny days."
+    },
+    {
+      "id": 6,
+      "name": "Ceramic Coffee Set",
+      "category": "Home",
+      "price": 799,
+      "image": "https://images.unsplash.com/photo-1514228742587-6b1558f2b7a5?w=900",
+      "description": "Make your coffee moments feel special."
+    },
+    {
+      "id": 7,
+      "name": "Smart Fitness Band",
+      "category": "Electronics",
+      "price": 2199,
+      "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=900",
+      "description": "Track your everyday activity in style."
+    },
+    {
+      "id": 8,
+      "name": "Soft Knit Hoodie",
+      "category": "Fashion",
+      "price": 1299,
+      "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=900",
+      "description": "A cosy layer for relaxed days."
+    }
+  ],
+  "orders": [],
+  "nextUserId": 3,
+  "nextProductId": 9,
+  "nextOrderId": 1
+}

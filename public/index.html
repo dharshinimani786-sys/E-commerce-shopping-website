@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopNest | Discover your style</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">✦</span> shop<span>Nest</span></a>
+  <nav><a href="#shop">Shop</a><a href="#features">Why ShopNest?</a></nav>
+  <div class="header-actions">
+    <button class="icon-btn" id="ordersBtn" title="My orders">▤ <span class="hide-small">Orders</span></button>
+    <button class="icon-btn" id="accountBtn" title="Account">♙ <span class="hide-small" id="accountLabel">Login</span></button>
+    <button class="cart-btn" id="cartBtn">Bag <span id="cartCount">0</span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">YOUR EVERYDAY, UPGRADED ✨</span>
+      <h1>Find your next<br><em>favourite thing.</em></h1>
+      <p>Good finds, happy prices and little things that make every day better.</p>
+      <a class="primary-btn" href="#shop">Explore collection <span>↗</span></a>
+      <div class="hero-note"><span class="avatar-dots">● ● ●</span> Loved by happy shoppers</div>
+    </div>
+    <div class="hero-art">
+      <div class="hero-image"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200" alt="Fashion shopping"></div>
+      <div class="floating-tag tag-one">✦ Fresh finds</div><div class="floating-tag tag-two">GOOD VIBES<br><b>ONLY</b> ♡</div>
+      <div class="sun-shape"></div>
+    </div>
+  </section>
+
+  <section class="trust-strip" id="features">
+    <div>✦ <b>Curated finds</b><small>Picked with care</small></div>
+    <div>♡ <b>Easy shopping</b><small>Simple checkout</small></div>
+    <div>↗ <b>Order updates</b><small>Track your orders</small></div>
+    <div>☻ <b>Here to help</b><small>Shop with confidence</small></div>
+  </section>
+
+  <section class="shop-section" id="shop">
+    <div class="section-heading"><div><span class="eyebrow">THE GOOD STUFF</span><h2>Shop the collection</h2></div><span class="result-count" id="resultCount"></span></div>
+    <div class="shop-tools">
+      <div class="category-list" id="categories"></div>
+      <input id="searchInput" class="search" placeholder="⌕  Search products..." aria-label="Search products">
+    </div>
+    <div class="product-grid" id="productGrid"><div class="loading">Loading your finds...</div></div>
+  </section>
+  <section class="bottom-banner"><div><span class="eyebrow">A LITTLE TREAT FOR YOU</span><h2>Make room for<br>something lovely.</h2><p>Your next favourite is just a click away.</p></div><a href="#shop" class="light-btn">Shop now ↗</a></section>
+</main>
+<footer><a class="brand" href="#">✦ shop<span>Nest</span></a><p>Find your everyday favourite. © 2026 ShopNest</p><span>Made for happy shopping ♡</span></footer>
+
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="cartDrawer"><div class="drawer-head"><h2>Your shopping bag <span id="drawerCount"></span></h2><button class="close-btn" data-close>×</button></div><div id="cartItems" class="cart-items"></div><div class="drawer-bottom"><div class="total-line"><span>Subtotal</span><b id="cartTotal">₹0</b></div><button class="primary-btn full" id="checkoutBtn">Continue to checkout →</button><p class="tiny-note">Delivery details are collected at checkout.</p></div></aside>
+
+<div class="modal" id="accountModal"><button class="close-btn modal-close" data-close>×</button><div id="accountContent"></div></div>
+<div class="modal wide-modal" id="ordersModal"><button class="close-btn modal-close" data-close>×</button><div id="ordersContent"></div></div>
+<div class="modal" id="checkoutModal"><button class="close-btn modal-close" data-close>×</button><div id="checkoutContent"></div></div>
+<div class="toast" id="toast"></div>
+<script src="app.js"></script>
+</body></html>
